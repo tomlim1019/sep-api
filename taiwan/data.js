@@ -1,0 +1,76 @@
+const object = {
+  "Age": "0",
+  "Keelung City": 0,
+  "Kinmen County": 0,
+  "Lienchiang County": 0,
+  "Nantou County": 0,
+  "Penghu County": 0,
+  "Chiayi City": 0,
+  "Hsinchu City": 0,
+  "Miaoli County": 0,
+  "Taipei City": 0,
+  "Yunlin County": 0,
+  "Changhua County": 0,
+  "Chiayi County": 0,
+  "Tainan City": 0,
+  "Taitung County": 0,
+  "Yilan County": 0,
+  "Taoyuan City": 0,
+  "Hsinchu County": 0,
+  "Hualien County": 0,
+  "Taichung City": 0,
+  "New Taipei City": 0,
+  "Kaohsiung City": 0,
+  "Pingtung County": 0,
+  "Taiwan": 0
+};
+
+const translation = {
+  "台北市": "Taipei City",
+  "新北市": "New Taipei City",
+  "桃園市": "Taoyuan City",
+  "台中市": "Taichung City",
+  "台南市": "Tainan City",
+  "高雄市": "Kaohsiung City",
+  "新竹縣": "Hsinchu County",
+  "宜蘭縣": "Yilan County",
+  "苗栗縣": "Miaoli County",
+  "彰化縣": "Changhua County",
+  "南投縣": "Nantou County",
+  "花蓮縣": "Hualien County",
+  "雲林縣": "Yunlin County",
+  "嘉義縣": "Chiayi County",
+  "台東縣": "Taitung County",
+  "屏東縣": "Pingtung County",
+  "連江縣": "Lienchiang County",
+  "金門縣": "Kinmen County",
+  "澎湖縣": "Penghu County",
+  "嘉義市": "Chiayi City",
+  "基隆市": "Keelung City",
+  "新竹市": "Hsinchu City",
+}
+
+const age = [
+  "0-4",
+  "5-9",
+  "10-14",
+  "15-19",
+  "20-24",
+  "25-29",
+  "30-34",
+  "35-39",
+  "40-44",
+  "45-49",
+  "50-54",
+  "55-59",
+  "60-64",
+  "65-69",
+  "70+",
+  "Grand Total"
+];
+
+module.exports = {
+  object,
+  translation,
+  age
+}
